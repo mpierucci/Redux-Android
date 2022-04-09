@@ -13,8 +13,6 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -46,7 +44,7 @@ afterEvaluate {
 
                 // Replace with the name of your library
                 artifactId 'core'
-                version '0.0.1'
+                version '0.1.1'
             }
 
             debug(MavenPublication) {
